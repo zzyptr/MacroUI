@@ -64,4 +64,4 @@ public macro set<View, Property>(_ keyPath: KeyPath<View, Property?>, _ value: P
 public macro _meta() = #externalMacro(module: "MacroUIMacros", type: "_MetaMacro")
 
 @attached(peer)
-public macro _arrange<T>(_: T) = #externalMacro(module: "MacroUIMacros", type: "_ArrangingMacro")
+public macro _arrange<T>(_: T) = #externalMacro(module: "MacroUIMacros", type: "_ArrangeMacro")
